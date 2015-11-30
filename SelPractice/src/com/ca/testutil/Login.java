@@ -16,7 +16,7 @@ public class Login {
    @BeforeTest
    public static void beforeMethod1()
    {
-	   System.out.println("before method");
+	   System.out.println("before test");
    }
  
 	@Test
