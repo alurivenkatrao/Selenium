@@ -14,9 +14,15 @@ public class Login {
  public static WebDriver driver;
  
    @BeforeTest
-   public static void beforeMethod1()
+   public static void beforeTest()
    {
 	   System.out.println("before test");
+   }
+   
+   @BeforeMethod
+   public static void beforeMethod()
+   {
+	   System.out.println("before method");
    }
  
 	@Test
